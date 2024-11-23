@@ -57,6 +57,11 @@ a {
     line-height: 1.16;
 }
 
+.heading.lv2 {
+    font-size: 4.2rem;
+    line-height: 1.33;
+}
+
 .hero-image .title {
     color: #0d1111;
     font-size: 1rem;
@@ -303,5 +308,52 @@ a {
     border-radius: 50%;
     background: var(--primary-color);
     color: var(--secondary-color);
+}
+
+/* ========== Feature ========== */
+.feature {
+    padding: 79px 0;
+    margin: 51px 0;
+}
+
+.feature .body {
+    width: 1024px;
+}
+
+.feature .info .title {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.feature .info .heading.lv2 {
+    width: 577px;
+    margin: 18px 0;
+}
+
+.feature .info .desc {
+    width: 590px;
+    color: #767e7e;
+    line-height: normal;
+}
+
+.feature .feature-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.feature-section .section-item .title {
+    margin-top: 26px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.feature-section .section-item .desc {
+    width: 223px;
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.68;
 }
 
