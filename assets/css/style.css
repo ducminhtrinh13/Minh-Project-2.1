@@ -62,6 +62,11 @@ a {
     line-height: 1.33;
 }
 
+.heading.lv3 {
+    font-size: 2.2rem;
+    line-height: normal;
+}
+
 .hero-image .title {
     color: #0d1111;
     font-size: 1rem;
@@ -357,3 +362,128 @@ a {
     line-height: 1.68;
 }
 
+/* ========== Feature ========== */
+.courses {
+    padding: 79px 0;
+    margin-top: 51px;
+}
+
+.courses .info .title {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.courses .info .heading.lv2 {
+    margin: 18px 0;
+}
+
+.courses .info .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses .info .content .desc {
+    width: 525px;
+    color: #767e7e;
+    line-height: normal;
+}
+
+.courses .info .content .link {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: underline solid;
+}
+
+.courses .course-list {
+    display: flex;
+    gap: 47px;
+    margin-top: 79px;
+}
+
+.course-list .course-item {
+    position: relative;
+    width: 33.33%;
+}
+
+.img-wrapper {
+    position: relative;
+    cursor: pointer;
+}
+
+.img-overlay {
+    position: absolute;
+    width: 359px;
+    height: 393px;
+    border-radius: 8px;
+}
+
+.img-overlay:hover {
+    opacity: 0.35;
+    background: var(--primary-color);
+}
+
+.course-list .course-image {
+    width: 100%;
+    height: 393px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.course-list .course-info {
+    position: absolute;
+    top: 322px;
+    left: 17px;
+    width: 325px;
+    height: 195px;
+    padding: 18px 25px 29px;
+    border-radius: 8px;
+    background: var(--secondary-color);
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.course-list .course-info .heading.lv3 {
+    cursor: pointer;
+}
+
+.course-list .course-info .course-fee {
+    display: block;
+    margin-top: 16px;
+    font-size: 1.6rem;
+    color: #767e7e;
+    font-weight: 400;
+}
+
+.course-list .course-info .course-fee strong {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.course-list .course-info .desc {
+    margin-top: 6px;
+    font-size: 1.4rem;
+    line-height: normal;
+}
+
+.course-list .course-info .content {
+    display: flex;
+    margin-top: 18px;
+}
+
+.course-list .course-info .content span {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.course-list .course-info .content span::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: var(--primary-color);
+}
