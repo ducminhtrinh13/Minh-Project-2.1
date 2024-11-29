@@ -487,3 +487,32 @@ a {
     border-radius: 50%;
     background: var(--primary-color);
 }
+
+/* ========== Countdown ========== */
+.countdown {
+    padding: 79px 0;
+    margin-top: 231px;
+}
+
+.countdown .sub-content {
+    display: flex;
+    justify-content: space-between;
+    width: 862px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-content .count-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count-group .heading.lv2 {
+    font-size: 6.2rem;
+}
+
+.count-group .desc {
+    margin-top: 11px;
+    color: #767E7E;
+}
